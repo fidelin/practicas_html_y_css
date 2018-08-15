@@ -1,0 +1,106 @@
+label
+{
+  <!-font-size: 15px;
+  <!-color: blue;
+}
+
+input
+{
+  <!-text-align: center;->
+}
+
+body{
+  background: #14C9A5;
+  margin: 100px;
+  padding: 0;
+  text-align: center;
+}
+
+
+
+.separar2
+{
+  margin-bottom: 30px;
+}
+
+.general
+{
+  background-color: #fffbbf;
+  border-radius: 5px;
+
+}
+#direccion
+{
+  font-size: 20px;
+  color: red;
+}
+
+#telefono
+{
+  font-size: 30px;
+  color: blue;
+}
+
+#correo{
+  font-size: 40px;
+  color: green;
+}
+
+#cabezera
+{
+  background: #FFFBB9;
+  border: 1px #999999;
+  padding: 20px;
+  text-align: center;
+}
+#camNombre
+{
+
+}
+
+#Apaterno{
+  float: none;
+}
+#camApellidos
+{
+  width:  960px;
+  margin: 30px auto;
+  text-align: center;
+}
+nav{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 400px;
+  background-color: #ffff0b;
+}
+
+li a{
+  display: block;
+  color: #000;
+  padding: 8px 16px;
+  text-decoration: underline;
+}
+
+li a:hover{
+  background-color: green;
+  color: white;
+}
+header{
+  display: inline-block;
+  text-align: center;
+}
+#centrar2
+{
+  text-align: center;;
+  display: flex;
+}
+
+table, tr, td{
+  border: 1px solid red;
+}
+
+
+h2::first-letter{
+  font-size: 2em;
+}

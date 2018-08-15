@@ -1,0 +1,85 @@
+body{
+margin: 100px;
+
+}
+
+h1{
+  text-align: center;
+}
+
+
+#datos{
+  text-align: left;
+  margin-left: 50px;
+  text-align: justify;
+  width: 16em;
+
+}
+
+#principal{
+ width: 50%;
+ margin-left: 400px;
+margin-top: -140px;
+  text-align: justify;
+}
+
+#contenido{
+  margin: 20px 20px;
+  width: 700px;
+  margin-left:  -35px;
+  display: flex;
+}
+#contenido li{
+  list-style: none;
+  margin: 15px;
+
+}
+
+*{
+
+}
+
+#formulario{
+  width:  960px;
+  margin: 30px auto;
+}
+
+#for{
+  background-color: #00f0bb;
+}
+
+label, input, select, textarea {
+	margin-bottom: 1em;
+font-family: cursive;
+}
+#boton{
+  text-decoration: none;
+   padding: 6px;
+   font-weight: 600;
+   font-size: 20px;
+   color: #ffffff;
+   background-color: #00ff0b;
+   border-radius: 6px;
+   border: 2px solid #0000b0;
+}
+.click::before{
+  content: ;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 0px;
+  height: 42px;
+  background: rgba(255,255,255,0.3);
+  border-radius: 5px;
+  transition: all 8s ease;
+}
+
+.click:hover{
+  background: rgba(0,0,0,0);
+  color: #3a7999;
+  box-shadow: inset 0 0 0 3px #3a7999;
+}
+
+#guardar::after{
+  transform-style: preserve-3d;
+}
